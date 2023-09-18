@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.card-container {
+  width: 80%;
+  margin: 10px auto !important;
+  /* display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px; */
+}
+.card {
+  margin: 10px auto;
+}
+.card-text {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.card img {
+  height: 10rem;
+  object-fit: contain;
+}
